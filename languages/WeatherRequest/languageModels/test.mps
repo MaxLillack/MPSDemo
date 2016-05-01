@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:8b9b6048-6360-4ba5-989b-aa12598ae009(WeatherRequest.test)">
+  <persistence version="9" />
+  <languages>
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="1" />
+    <use id="f8b6ae65-c119-408f-a056-a2c44780a8ff" name="WeatherRequest" version="0" />
+    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+  </languages>
+  <imports>
+    <import index="czrh" ref="r:609f2464-cb7c-41ee-8da3-9932102543b5(WeatherRequest.generator.template.main@generator)" />
+  </imports>
+  <registry />
+</model>
+

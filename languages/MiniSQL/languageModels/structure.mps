@@ -11,11 +11,13 @@
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" flags="ng" index="AxPO7">
+        <property id="1197591154882" name="memberIdentifierPolicy" index="3lZH7k" />
         <reference id="1083171729157" name="memberDataType" index="M4eZT" />
         <child id="1083172003582" name="member" index="M5hS2" />
       </concept>
       <concept id="1083171877298" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ig" index="M4N5e">
         <property id="1083923523172" name="externalValue" index="1uS6qo" />
+        <property id="1083923523171" name="internalValue" index="1uS6qv" />
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
@@ -81,12 +83,15 @@
   </node>
   <node concept="AxPO7" id="3k4_2p5mzLO">
     <property role="TrG5h" value="ColumnType" />
+    <property role="3lZH7k" value="derive_from_presentation" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="3k4_2p5mzLP" role="M5hS2">
       <property role="1uS6qo" value="VARCHAR" />
+      <property role="1uS6qv" value="VARCHAR" />
     </node>
     <node concept="M4N5e" id="3k4_2p5mzLQ" role="M5hS2">
       <property role="1uS6qo" value="DATETIME" />
+      <property role="1uS6qv" value="DATETIME" />
     </node>
   </node>
   <node concept="1TIwiD" id="3k4_2p5mzMy">

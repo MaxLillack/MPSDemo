@@ -48,6 +48,9 @@
     <ref role="1XX52x" to="9d8n:7TzLFDFB7uM" resolve="Date" />
     <node concept="3EZMnI" id="7TzLFDFB7vp" role="2wV5jI">
       <node concept="2iRfu4" id="7TzLFDFB7vq" role="2iSdaV" />
+      <node concept="3F0ifn" id="5e01W9TBEOP" role="3EZMnx">
+        <property role="3F0ifm" value="Date:" />
+      </node>
       <node concept="3F0A7n" id="7TzLFDFB7Tz" role="3EZMnx">
         <ref role="1NtTu8" to="9d8n:7TzLFDFB7uQ" resolve="day" />
       </node>
@@ -84,15 +87,6 @@
           <property role="1413C4" value="body-paren" />
         </node>
         <node concept="11LMrY" id="7TzLFDFB7W7" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0ifn" id="7TzLFDFB7W8" role="3EZMnx">
-        <property role="3F0ifm" value="date" />
-      </node>
-      <node concept="3F0ifn" id="7TzLFDFB7W9" role="3EZMnx">
-        <property role="3F0ifm" value=":" />
-        <node concept="11L4FC" id="7TzLFDFB7Wa" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>

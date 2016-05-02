@@ -33,9 +33,6 @@
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
-      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
-        <child id="1081516765348" name="expression" index="3fr31v" />
-      </concept>
     </language>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
       <concept id="1114706874351" name="jetbrains.mps.lang.generator.structure.CopySrcNodeMacro" flags="ln" index="29HgVG">
@@ -92,19 +89,17 @@
               </node>
             </node>
           </node>
-          <node concept="3fqX7Q" id="7TzLFDFB2Vn" role="3clFbw">
-            <node concept="3clFbT" id="7TzLFDFB3AB" role="3fr31v">
-              <property role="3clFbU" value="true" />
-              <node concept="29HgVG" id="7TzLFDFB4oN" role="lGtFl">
-                <node concept="3NFfHV" id="7TzLFDFB4p2" role="3NFExx">
-                  <node concept="3clFbS" id="7TzLFDFB4p3" role="2VODD2">
-                    <node concept="3clFbF" id="7TzLFDFB4pG" role="3cqZAp">
-                      <node concept="2OqwBi" id="7TzLFDFB4sP" role="3clFbG">
-                        <node concept="30H73N" id="7TzLFDFB4pF" role="2Oq$k0" />
-                        <node concept="3TrEf2" id="7TzLFDFB4TT" role="2OqNvi">
-                          <ref role="3Tt5mk" to="v8fo:4bcpbFZtIsL" />
-                        </node>
+          <node concept="3clFbT" id="5e01W9TB_Vc" role="3clFbw">
+            <property role="3clFbU" value="true" />
+            <node concept="29HgVG" id="5e01W9TB_W2" role="lGtFl">
+              <node concept="3NFfHV" id="5e01W9TB_W3" role="3NFExx">
+                <node concept="3clFbS" id="5e01W9TB_W4" role="2VODD2">
+                  <node concept="3clFbF" id="5e01W9TB_Wa" role="3cqZAp">
+                    <node concept="2OqwBi" id="5e01W9TB_W5" role="3clFbG">
+                      <node concept="3TrEf2" id="5e01W9TB_W8" role="2OqNvi">
+                        <ref role="3Tt5mk" to="v8fo:4bcpbFZtIsL" />
                       </node>
+                      <node concept="30H73N" id="5e01W9TB_W9" role="2Oq$k0" />
                     </node>
                   </node>
                 </node>

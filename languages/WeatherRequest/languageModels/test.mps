@@ -6,9 +6,7 @@
     <use id="f8b6ae65-c119-408f-a056-a2c44780a8ff" name="WeatherRequest" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
-  <imports>
-    <import index="czrh" ref="r:609f2464-cb7c-41ee-8da3-9932102543b5(WeatherRequest.generator.template.main@generator)" />
-  </imports>
+  <imports />
   <registry />
 </model>
 

@@ -4,7 +4,6 @@
   <languages>
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="0" />
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
-    <use id="51461345-4478-4526-950b-a16b094591f2" name="TableWithGen" version="0" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
     <use id="bad5c4cc-8146-41ff-8440-8b46b24a442d" name="MiniSQL" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -96,7 +95,7 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1138676077309" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="nn" index="uoxfO">
+      <concept id="1138676077309" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference_Old" flags="nn" index="uoxfO">
         <reference id="1138676095763" name="enumMember" index="uo_Cq" />
       </concept>
       <concept id="6973815483243445083" name="jetbrains.mps.lang.smodel.structure.EnumMemberValueRefExpression" flags="nn" index="3f7Wdw">
@@ -121,7 +120,7 @@
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
-        <property id="1757699476691236117" name="propertyName" index="2qtEX9" />
+        <property id="1757699476691236117" name="name_DebugInfo" index="2qtEX9" />
         <property id="1341860900487648621" name="propertyId" index="P4ACc" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -236,7 +235,7 @@
                     <node concept="2OqwBi" id="3k4_2p5o9cg" role="2Oq$k0">
                       <node concept="30H73N" id="3k4_2p5o98i" role="2Oq$k0" />
                       <node concept="3TrEf2" id="3k4_2p5o9oF" role="2OqNvi">
-                        <ref role="3Tt5mk" to="43f8:5QodPemGytb" />
+                        <ref role="3Tt5mk" to="43f8:5QodPemGytb" resolve="refTable" />
                       </node>
                     </node>
                     <node concept="3TrcHB" id="3k4_2p5o9VR" role="2OqNvi">
@@ -264,7 +263,7 @@
             <node concept="3clFbF" id="3k4_2p5o2GQ" role="3cqZAp">
               <node concept="2OqwBi" id="3k4_2p5o2GL" role="3clFbG">
                 <node concept="3Tsc0h" id="3k4_2p5o2GO" role="2OqNvi">
-                  <ref role="3TtcxE" to="43f8:SgUpa$dd3f" />
+                  <ref role="3TtcxE" to="43f8:SgUpa$dd3f" resolve="tables" />
                 </node>
                 <node concept="30H73N" id="3k4_2p5o2GP" role="2Oq$k0" />
               </node>
@@ -297,7 +296,7 @@
               <node concept="3clFbF" id="3k4_2p5o4Qb" role="3cqZAp">
                 <node concept="2OqwBi" id="3k4_2p5o4Q6" role="3clFbG">
                   <node concept="3Tsc0h" id="3k4_2p5o4Q9" role="2OqNvi">
-                    <ref role="3TtcxE" to="43f8:5QodPemI3D$" />
+                    <ref role="3TtcxE" to="43f8:5QodPemI3D$" resolve="columns" />
                   </node>
                   <node concept="30H73N" id="3k4_2p5o4Qa" role="2Oq$k0" />
                 </node>
@@ -314,7 +313,7 @@
               <node concept="3clFbF" id="3k4_2p5o6tQ" role="3cqZAp">
                 <node concept="2OqwBi" id="3k4_2p5o6tL" role="3clFbG">
                   <node concept="3Tsc0h" id="3k4_2p5o6tO" role="2OqNvi">
-                    <ref role="3TtcxE" to="43f8:5QodPemI3Dy" />
+                    <ref role="3TtcxE" to="43f8:5QodPemI3Dy" resolve="foreignKeys" />
                   </node>
                   <node concept="30H73N" id="3k4_2p5o6tP" role="2Oq$k0" />
                 </node>

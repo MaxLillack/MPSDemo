@@ -2,7 +2,6 @@
 <model ref="r:9e8436a9-9f79-4bd6-9df6-22db6bf11791(HelloWorld.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="d0c825c2-b0e6-4363-a626-99f95b25f690" name="HelloWorld" version="0" />
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="0" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />

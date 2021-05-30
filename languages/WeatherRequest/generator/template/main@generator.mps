@@ -2,14 +2,11 @@
 <model ref="r:609f2464-cb7c-41ee-8da3-9932102543b5(WeatherRequest.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
-    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="0" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="4" />
     <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="9d8n" ref="r:52d2c48e-d2fa-479f-a209-ff802e8295d6(WeatherRequest.structure)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -21,7 +18,7 @@
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
-      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
+      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -219,7 +216,7 @@
               </node>
             </node>
             <node concept="2YIFZM" id="7TzLFDFCgkp" role="37vLTx">
-              <ref role="37wK5l" to="33ny:~Calendar.getInstance():java.util.Calendar" resolve="getInstance" />
+              <ref role="37wK5l" to="33ny:~Calendar.getInstance()" resolve="getInstance" />
               <ref role="1Pybhc" to="33ny:~Calendar" resolve="Calendar" />
             </node>
           </node>
@@ -230,7 +227,7 @@
               <ref role="3cqZAo" node="7TzLFDFCeih" resolve="date" />
             </node>
             <node concept="liA8E" id="7TzLFDFCiMY" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Calendar.set(int,int,int):void" resolve="set" />
+              <ref role="37wK5l" to="33ny:~Calendar.set(int,int,int)" resolve="set" />
               <node concept="3cmrfG" id="7TzLFDFCkTT" role="37wK5m">
                 <property role="3cmrfH" value="2000" />
                 <node concept="17Uvod" id="7TzLFDFCl4O" role="lGtFl">
@@ -429,7 +426,7 @@
                   <node concept="3clFbS" id="3Qw1fB5MAc9" role="2VODD2">
                     <node concept="3clFbF" id="3Qw1fB5MCim" role="3cqZAp">
                       <node concept="2YIFZM" id="3Qw1fB5MCsy" role="3clFbG">
-                        <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                        <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                         <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                         <node concept="2OqwBi" id="3Qw1fB5MCVS" role="37wK5m">
                           <node concept="2OqwBi" id="3Qw1fB5MCAa" role="2Oq$k0">
@@ -461,7 +458,7 @@
                     <node concept="3clFbF" id="3Qw1fB5MFp_" role="3cqZAp">
                       <node concept="2YIFZM" id="3Qw1fB5MFpA" role="3clFbG">
                         <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
-                        <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                        <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                         <node concept="2OqwBi" id="3Qw1fB5MFpB" role="37wK5m">
                           <node concept="2OqwBi" id="3Qw1fB5MFpC" role="2Oq$k0">
                             <node concept="30H73N" id="3Qw1fB5MFpD" role="2Oq$k0" />
@@ -492,7 +489,7 @@
                     <node concept="3clFbF" id="3Qw1fB5MFyi" role="3cqZAp">
                       <node concept="2YIFZM" id="3Qw1fB5MFyj" role="3clFbG">
                         <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
-                        <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                        <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                         <node concept="2OqwBi" id="3Qw1fB5MFyk" role="37wK5m">
                           <node concept="2OqwBi" id="3Qw1fB5MFyl" role="2Oq$k0">
                             <node concept="30H73N" id="3Qw1fB5MFym" role="2Oq$k0" />

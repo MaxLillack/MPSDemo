@@ -2,26 +2,13 @@
 <model ref="r:c9e7825c-788c-4872-b580-7af937c4bc3e(MiniSQL.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
-    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+    <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
-      <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
-        <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
-      </concept>
-      <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration_Old" flags="ng" index="AxPO7">
-        <property id="1197591154882" name="memberIdentifierPolicy" index="3lZH7k" />
-        <reference id="1083171729157" name="memberDataType" index="M4eZT" />
-        <child id="1083172003582" name="member" index="M5hS2" />
-      </concept>
-      <concept id="1083171877298" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration_Old" flags="ig" index="M4N5e">
-        <property id="1083923523172" name="externalValue" index="1uS6qo" />
-        <property id="1083923523171" name="internalValue" index="1uS6qv" />
-      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
@@ -63,16 +50,16 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyj" id="3k4_2p5mGzI" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="columns" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <property role="IQ2ns" value="3820341276010268910" />
       <ref role="20lvS9" node="3k4_2p5mzLo" resolve="Column" />
     </node>
     <node concept="1TJgyj" id="3k4_2p5mIWg" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="foreignKeys" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <property role="IQ2ns" value="3820341276010278672" />
       <ref role="20lvS9" node="3k4_2p5mzMy" resolve="ForeignKey" />
     </node>
@@ -90,20 +77,6 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
-  <node concept="AxPO7" id="3k4_2p5mzLO">
-    <property role="TrG5h" value="ColumnType" />
-    <property role="3lZH7k" value="derive_from_presentation" />
-    <property role="3F6X1D" value="3820341276010232948" />
-    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
-    <node concept="M4N5e" id="3k4_2p5mzLP" role="M5hS2">
-      <property role="1uS6qo" value="VARCHAR" />
-      <property role="1uS6qv" value="VARCHAR" />
-    </node>
-    <node concept="M4N5e" id="3k4_2p5mzLQ" role="M5hS2">
-      <property role="1uS6qo" value="DATETIME" />
-      <property role="1uS6qv" value="DATETIME" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="3k4_2p5mzMy">
     <property role="TrG5h" value="ForeignKey" />
     <property role="EcuMT" value="3820341276010232994" />
@@ -118,9 +91,9 @@
     <property role="EcuMT" value="3820341276010259772" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3k4_2p5mEkX" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="createTables" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <property role="IQ2ns" value="3820341276010259773" />
       <ref role="20lvS9" node="3k4_2p5mzxV" resolve="CreateTable" />
     </node>

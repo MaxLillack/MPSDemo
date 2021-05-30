@@ -2,11 +2,10 @@
 <model ref="r:9d899adf-2772-43bf-b386-c8d5be66bf54(TableWithGen.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="3" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="yhh4" ref="r:4d15ab09-f952-4743-96ba-05002b4905b2(Table.structure)" />
     <import index="43f8" ref="r:dad17fc7-05b8-41f8-a103-f3193ec5fd72(TableWithGen.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
@@ -58,7 +57,7 @@
         <property role="3F0ifm" value="Data Type:" />
       </node>
       <node concept="3F0A7n" id="3k4_2p5knTm" role="3EZMnx">
-        <ref role="1NtTu8" to="43f8:5QodPemGyHH" resolve="datatype" />
+        <ref role="1NtTu8" to="43f8:5QodPemGyHH" resolve="datatype2" />
       </node>
       <node concept="2iRfu4" id="3k4_2p5knSI" role="2iSdaV" />
     </node>
@@ -70,7 +69,7 @@
         <property role="3F0ifm" value="To table" />
       </node>
       <node concept="1iCGBv" id="3k4_2p5lfIu" role="3EZMnx">
-        <ref role="1NtTu8" to="43f8:5QodPemGytb" />
+        <ref role="1NtTu8" to="43f8:5QodPemGytb" resolve="refTable" />
         <node concept="1sVBvm" id="3k4_2p5lfIw" role="1sWHZn">
           <node concept="3F0A7n" id="3k4_2p5lfJa" role="2wV5jI">
             <property role="1Intyy" value="true" />
@@ -105,7 +104,7 @@
             <property role="3F0ifm" value="Columns:" />
           </node>
           <node concept="3F2HdR" id="5QodPemI3Ej" role="3EZMnx">
-            <ref role="1NtTu8" to="43f8:5QodPemI3D$" />
+            <ref role="1NtTu8" to="43f8:5QodPemI3D$" resolve="columns" />
             <node concept="2iRkQZ" id="5QodPemI7ZW" role="2czzBx" />
           </node>
         </node>
@@ -115,7 +114,7 @@
             <property role="3F0ifm" value="Foreign Keys:" />
           </node>
           <node concept="3F2HdR" id="5QodPemI3Fu" role="3EZMnx">
-            <ref role="1NtTu8" to="43f8:5QodPemI3Dy" />
+            <ref role="1NtTu8" to="43f8:5QodPemI3Dy" resolve="foreignKeys" />
             <node concept="2iRkQZ" id="5QodPemI7ZU" role="2czzBx" />
           </node>
         </node>

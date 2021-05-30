@@ -2,8 +2,7 @@
 <model ref="r:49df84ff-e3bc-47d1-8d74-ad2badb6cc25(HelloWorldLanguage.textGen)">
   <persistence version="9" />
   <languages>
-    <use id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen" version="0" />
-    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+    <devkit ref="fa73d85a-ac7f-447b-846c-fcdc41caa600(jetbrains.mps.devkit.aspect.textgen)" />
   </languages>
   <imports>
     <import index="xrba" ref="r:c5bba72c-1531-4ce1-83f3-ee9e3f4e45d5(HelloWorldLanguage.structure)" implicit="true" />
@@ -68,7 +67,7 @@
             <node concept="2OqwBi" id="7TzLFDFHdV5" role="lbANJ">
               <node concept="117lpO" id="7TzLFDFHdTR" role="2Oq$k0" />
               <node concept="3Tsc0h" id="7TzLFDFHe2D" role="2OqNvi">
-                <ref role="3TtcxE" to="xrba:7TzLFDFHdm$" />
+                <ref role="3TtcxE" to="xrba:7TzLFDFHdm$" resolve="greetings" />
               </node>
             </node>
           </node>

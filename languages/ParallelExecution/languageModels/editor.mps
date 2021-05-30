@@ -2,7 +2,7 @@
 <model ref="r:4acb55c7-cbd4-475f-856d-429f1a7d18ca(ParallelExecution.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="3" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -59,7 +59,7 @@
         <node concept="3EZMnI" id="7TzLFDFEw2a" role="3EZMnx">
           <node concept="2iRfu4" id="7TzLFDFEw2b" role="2iSdaV" />
           <node concept="3F2HdR" id="7TzLFDFEAJ9" role="3EZMnx">
-            <ref role="1NtTu8" to="fuv8:7TzLFDFEw1e" />
+            <ref role="1NtTu8" to="fuv8:7TzLFDFEw1e" resolve="bodies" />
             <node concept="2iRfu4" id="7TzLFDFEAJd" role="2czzBx" />
           </node>
         </node>
@@ -69,7 +69,7 @@
   <node concept="24kQdi" id="7TzLFDFEEte">
     <ref role="1XX52x" to="fuv8:7TzLFDFEEsH" resolve="ParallelPart" />
     <node concept="3F1sOY" id="7TzLFDFEEtg" role="2wV5jI">
-      <ref role="1NtTu8" to="fuv8:7TzLFDFEEsI" />
+      <ref role="1NtTu8" to="fuv8:7TzLFDFEEsI" resolve="statementList" />
       <node concept="VPXOz" id="7TzLFDFEAKS" role="3F10Kt">
         <property role="VOm3f" value="true" />
       </node>

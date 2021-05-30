@@ -15,15 +15,12 @@
       </concept>
     </language>
   </registry>
-  <node concept="3SpJON" id="3Qw1fB5LK9t">
-    <node concept="3Sos8h" id="3Qw1fB5LK9u" role="3SpJOQ">
-      <property role="3Soxz4" value="Joe" />
+  <node concept="3SpJON" id="7diMAK3lzNN">
+    <node concept="3Sos8h" id="7diMAK3lzNO" role="3SpJOQ">
+      <property role="3Soxz4" value="test" />
     </node>
-    <node concept="3Sos8h" id="3Qw1fB5LK9w" role="3SpJOQ">
-      <property role="3Soxz4" value="Mary" />
-    </node>
-    <node concept="3Sos8h" id="3Qw1fB5LYJw" role="3SpJOQ">
-      <property role="3Soxz4" value="Peter" />
+    <node concept="3Sos8h" id="7diMAK3lzNQ" role="3SpJOQ">
+      <property role="3Soxz4" value="test2" />
     </node>
   </node>
 </model>

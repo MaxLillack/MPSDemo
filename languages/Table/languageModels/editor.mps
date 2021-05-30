@@ -2,7 +2,7 @@
 <model ref="r:251c9340-b72d-4d33-8724-d4180d5010da(Table.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="3" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -68,7 +68,7 @@
             <property role="3F0ifm" value="Columns:" />
           </node>
           <node concept="3F2HdR" id="5QodPemI3Ej" role="3EZMnx">
-            <ref role="1NtTu8" to="yhh4:5QodPemI3D$" />
+            <ref role="1NtTu8" to="yhh4:5QodPemI3D$" resolve="columns" />
             <node concept="2iRkQZ" id="5QodPemI7ZW" role="2czzBx" />
           </node>
         </node>
@@ -78,7 +78,7 @@
             <property role="3F0ifm" value="Foreign Keys:" />
           </node>
           <node concept="3F2HdR" id="5QodPemI3Fu" role="3EZMnx">
-            <ref role="1NtTu8" to="yhh4:5QodPemI3Dy" />
+            <ref role="1NtTu8" to="yhh4:5QodPemI3Dy" resolve="foreignKeys" />
             <node concept="2iRkQZ" id="5QodPemI7ZU" role="2czzBx" />
           </node>
         </node>
@@ -111,7 +111,7 @@
         <property role="3F0ifm" value="To table" />
       </node>
       <node concept="1iCGBv" id="3k4_2p5lfIu" role="3EZMnx">
-        <ref role="1NtTu8" to="yhh4:5QodPemGytb" />
+        <ref role="1NtTu8" to="yhh4:5QodPemGytb" resolve="refTable" />
         <node concept="1sVBvm" id="3k4_2p5lfIw" role="1sWHZn">
           <node concept="3F0A7n" id="3k4_2p5lfJa" role="2wV5jI">
             <property role="1Intyy" value="true" />

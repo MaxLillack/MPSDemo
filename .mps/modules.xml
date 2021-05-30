@@ -7,7 +7,6 @@
       <modulePath path="$PROJECT_DIR$/languages/MiniSQL/MiniSQL.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/ParallelExecution/ParallelExecution.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/Table/Table.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/Table/runtime/Table.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/TableWithGen/TableWithGen.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/Unless/Unless.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/UnlessWithGenerator/UnlessWithGenerator.mpl" folder="" />

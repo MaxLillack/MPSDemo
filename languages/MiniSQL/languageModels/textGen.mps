@@ -2,8 +2,7 @@
 <model ref="r:3042d69c-c1dc-4c23-bb4f-8369eec55fc9(MiniSQL.textGen)">
   <persistence version="9" />
   <languages>
-    <use id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen" version="0" />
-    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+    <devkit ref="fa73d85a-ac7f-447b-846c-fcdc41caa600(jetbrains.mps.devkit.aspect.textgen)" />
   </languages>
   <imports>
     <import index="9drd" ref="r:c9e7825c-788c-4872-b580-7af937c4bc3e(MiniSQL.structure)" implicit="true" />
@@ -138,7 +137,7 @@
             <node concept="2OqwBi" id="3k4_2p5mFOk" role="lbANJ">
               <node concept="117lpO" id="3k4_2p5mFN7" role="2Oq$k0" />
               <node concept="3Tsc0h" id="3k4_2p5mGaf" role="2OqNvi">
-                <ref role="3TtcxE" to="9drd:3k4_2p5mEkX" />
+                <ref role="3TtcxE" to="9drd:3k4_2p5mEkX" resolve="createTables" />
               </node>
             </node>
           </node>
@@ -151,6 +150,12 @@
     <node concept="11bSqf" id="SgUpa$dpUK" role="11c4hB">
       <node concept="3clFbS" id="SgUpa$dpUL" role="2VODD2">
         <node concept="1bpajm" id="SgUpa$dv4T" role="3cqZAp" />
+        <node concept="lc7rE" id="2lW2Ke6P8zC" role="3cqZAp">
+          <node concept="la8eA" id="2lW2Ke6P8A2" role="lcghm">
+            <property role="lacIc" value="-- MiniSQL generated code:" />
+          </node>
+          <node concept="l8MVK" id="2lW2Ke6P8Cw" role="lcghm" />
+        </node>
         <node concept="lc7rE" id="SgUpa$dpV3" role="3cqZAp">
           <node concept="la8eA" id="SgUpa$dpVg" role="lcghm">
             <property role="lacIc" value="CREATE TABLE " />
@@ -180,7 +185,7 @@
                 <node concept="2OqwBi" id="5QodPemIf5h" role="lbANJ">
                   <node concept="117lpO" id="5QodPemIeJm" role="2Oq$k0" />
                   <node concept="3Tsc0h" id="3k4_2p5mI$8" role="2OqNvi">
-                    <ref role="3TtcxE" to="9drd:3k4_2p5mGzI" />
+                    <ref role="3TtcxE" to="9drd:3k4_2p5mGzI" resolve="columns" />
                   </node>
                 </node>
               </node>
@@ -199,7 +204,7 @@
                   <node concept="2OqwBi" id="5QodPemIzEF" role="2Oq$k0">
                     <node concept="117lpO" id="5QodPemIzEG" role="2Oq$k0" />
                     <node concept="3Tsc0h" id="3k4_2p5mINr" role="2OqNvi">
-                      <ref role="3TtcxE" to="9drd:3k4_2p5mGzI" />
+                      <ref role="3TtcxE" to="9drd:3k4_2p5mGzI" resolve="columns" />
                     </node>
                   </node>
                   <node concept="1v1jN8" id="5QodPemIzEI" role="2OqNvi" />
@@ -213,7 +218,7 @@
                 <node concept="2OqwBi" id="5QodPemIpgW" role="lbANJ">
                   <node concept="117lpO" id="5QodPemIpfq" role="2Oq$k0" />
                   <node concept="3Tsc0h" id="3k4_2p5mJkY" role="2OqNvi">
-                    <ref role="3TtcxE" to="9drd:3k4_2p5mIWg" />
+                    <ref role="3TtcxE" to="9drd:3k4_2p5mIWg" resolve="foreignKeys" />
                   </node>
                 </node>
               </node>

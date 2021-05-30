@@ -2,13 +2,9 @@
 <model ref="r:a11cb26f-556c-4929-a261-9d55d1c84206(WeatherRequest.constraints)">
   <persistence version="9" />
   <languages>
-    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="0" />
-    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+    <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
   <imports>
-    <import index="8xlz" ref="f8b6ae65-c119-408f-a056-a2c44780a8ff/java:org.apache.commons.validator.routines(WeatherRequest/)" />
-    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
-    <import index="25x5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.text(JDK/)" />
     <import index="9d8n" ref="r:52d2c48e-d2fa-479f-a209-ff802e8295d6(WeatherRequest.structure)" implicit="true" />
   </imports>
   <registry>

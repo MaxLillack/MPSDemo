@@ -2,8 +2,7 @@
 <model ref="r:06340c75-c57c-4edd-95d3-9093e641013f(ParallelExecution.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
-    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+    <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -37,9 +36,9 @@
     <property role="EcuMT" value="9107341375445794549" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
     <node concept="1TJgyj" id="7TzLFDFEw1e" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="bodies" />
-      <property role="20lbJX" value="1..n" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
       <property role="IQ2ns" value="9107341375445794894" />
       <ref role="20lvS9" node="7TzLFDFEEsH" resolve="ParallelPart" />
     </node>
@@ -49,9 +48,9 @@
     <property role="EcuMT" value="9107341375445837613" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7TzLFDFEEsI" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="statementList" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <property role="IQ2ns" value="9107341375445837614" />
       <ref role="20lvS9" to="tpee:fzclF80" resolve="StatementList" />
     </node>

@@ -2,13 +2,12 @@
 <model ref="r:9f109ac0-03a4-4bf7-8da5-3bc6d7a27c8d(HelloWorldLanguage.intentions)">
   <persistence version="9" />
   <languages>
-    <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="0" />
+    <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="1" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
-    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="0" />
+    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="5" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="tp3r" ref="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" />
     <import index="xrba" ref="r:c5bba72c-1531-4ce1-83f3-ee9e3f4e45d5(HelloWorldLanguage.structure)" />
     <import index="f4zo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.cells(MPS.Editor/)" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" implicit="true" />
@@ -160,15 +159,15 @@
                 <node concept="2OqwBi" id="7TzLFDFIJf9" role="2Oq$k0">
                   <node concept="1XNTG" id="7TzLFDFIJfa" role="2Oq$k0" />
                   <node concept="liA8E" id="7TzLFDFIJfb" role="2OqNvi">
-                    <ref role="37wK5l" to="cj4x:~EditorContext.getContextCell():jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getContextCell" />
+                    <ref role="37wK5l" to="cj4x:~EditorContext.getContextCell()" resolve="getContextCell" />
                   </node>
                 </node>
                 <node concept="liA8E" id="7TzLFDFIJfc" role="2OqNvi">
-                  <ref role="37wK5l" to="f4zo:~EditorCell.renderText():jetbrains.mps.openapi.editor.TextBuilder" resolve="renderText" />
+                  <ref role="37wK5l" to="f4zo:~EditorCell.renderText()" resolve="renderText" />
                 </node>
               </node>
               <node concept="liA8E" id="7TzLFDFIJfd" role="2OqNvi">
-                <ref role="37wK5l" to="cj4x:~TextBuilder.getText():java.lang.String" resolve="getText" />
+                <ref role="37wK5l" to="cj4x:~TextBuilder.getText()" resolve="getText" />
               </node>
             </node>
           </node>
@@ -196,15 +195,15 @@
                 <node concept="2OqwBi" id="7TzLFDFIGHJ" role="2Oq$k0">
                   <node concept="1XNTG" id="7TzLFDFIGEw" role="2Oq$k0" />
                   <node concept="liA8E" id="7TzLFDFIGRE" role="2OqNvi">
-                    <ref role="37wK5l" to="cj4x:~EditorContext.getContextCell():jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getContextCell" />
+                    <ref role="37wK5l" to="cj4x:~EditorContext.getContextCell()" resolve="getContextCell" />
                   </node>
                 </node>
                 <node concept="liA8E" id="7TzLFDFIIrg" role="2OqNvi">
-                  <ref role="37wK5l" to="f4zo:~EditorCell.renderText():jetbrains.mps.openapi.editor.TextBuilder" resolve="renderText" />
+                  <ref role="37wK5l" to="f4zo:~EditorCell.renderText()" resolve="renderText" />
                 </node>
               </node>
               <node concept="liA8E" id="7TzLFDFIIFT" role="2OqNvi">
-                <ref role="37wK5l" to="cj4x:~TextBuilder.getText():java.lang.String" resolve="getText" />
+                <ref role="37wK5l" to="cj4x:~TextBuilder.getText()" resolve="getText" />
               </node>
             </node>
           </node>
@@ -252,7 +251,7 @@
                 </node>
               </node>
               <node concept="3Tsc0h" id="7TzLFDFIYcg" role="2OqNvi">
-                <ref role="3TtcxE" to="xrba:7TzLFDFHXMd" />
+                <ref role="3TtcxE" to="xrba:7TzLFDFHXMd" resolve="persons" />
               </node>
             </node>
             <node concept="TSZUe" id="7TzLFDFJdoA" role="2OqNvi">
@@ -270,7 +269,7 @@
             <node concept="2OqwBi" id="7TzLFDFJewe" role="37vLTJ">
               <node concept="2Sf5sV" id="7TzLFDFJenM" role="2Oq$k0" />
               <node concept="3TrEf2" id="7TzLFDFJeOR" role="2OqNvi">
-                <ref role="3Tt5mk" to="xrba:7TzLFDFHLzY" />
+                <ref role="3Tt5mk" to="xrba:7TzLFDFHLzY" resolve="person" />
               </node>
             </node>
           </node>
@@ -288,15 +287,15 @@
                 <node concept="2OqwBi" id="7TzLFDFIVMX" role="2Oq$k0">
                   <node concept="1XNTG" id="7TzLFDFIVMY" role="2Oq$k0" />
                   <node concept="liA8E" id="7TzLFDFIVMZ" role="2OqNvi">
-                    <ref role="37wK5l" to="cj4x:~EditorContext.getContextCell():jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getContextCell" />
+                    <ref role="37wK5l" to="cj4x:~EditorContext.getContextCell()" resolve="getContextCell" />
                   </node>
                 </node>
                 <node concept="liA8E" id="7TzLFDFIVN0" role="2OqNvi">
-                  <ref role="37wK5l" to="f4zo:~EditorCell.renderText():jetbrains.mps.openapi.editor.TextBuilder" resolve="renderText" />
+                  <ref role="37wK5l" to="f4zo:~EditorCell.renderText()" resolve="renderText" />
                 </node>
               </node>
               <node concept="liA8E" id="7TzLFDFIVN1" role="2OqNvi">
-                <ref role="37wK5l" to="cj4x:~TextBuilder.getText():java.lang.String" resolve="getText" />
+                <ref role="37wK5l" to="cj4x:~TextBuilder.getText()" resolve="getText" />
               </node>
             </node>
           </node>
@@ -318,7 +317,7 @@
                   </node>
                 </node>
                 <node concept="3Tsc0h" id="7TzLFDFIVNc" role="2OqNvi">
-                  <ref role="3TtcxE" to="xrba:7TzLFDFHXMd" />
+                  <ref role="3TtcxE" to="xrba:7TzLFDFHXMd" resolve="persons" />
                 </node>
               </node>
               <node concept="2HwmR7" id="7TzLFDFIVNd" role="2OqNvi">

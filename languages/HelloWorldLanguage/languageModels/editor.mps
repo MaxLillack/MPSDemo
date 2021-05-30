@@ -2,8 +2,7 @@
 <model ref="r:29d3ac05-829e-4845-b135-a371c978be3a(HelloWorldLanguage.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="3" />
-    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
   </languages>
   <imports>
     <import index="xrba" ref="r:c5bba72c-1531-4ce1-83f3-ee9e3f4e45d5(HelloWorldLanguage.structure)" implicit="true" />
@@ -84,7 +83,7 @@
         </node>
       </node>
       <node concept="3F2HdR" id="7TzLFDFHXVw" role="3EZMnx">
-        <ref role="1NtTu8" to="xrba:7TzLFDFHXMd" />
+        <ref role="1NtTu8" to="xrba:7TzLFDFHXMd" resolve="persons" />
         <node concept="l2Vlx" id="7TzLFDFHXVx" role="2czzBx" />
         <node concept="pj6Ft" id="7TzLFDFHXVy" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -109,7 +108,7 @@
         </node>
       </node>
       <node concept="3F2HdR" id="7TzLFDFI8XQ" role="3EZMnx">
-        <ref role="1NtTu8" to="xrba:7TzLFDFHdm$" />
+        <ref role="1NtTu8" to="xrba:7TzLFDFHdm$" resolve="greetings" />
         <node concept="l2Vlx" id="7TzLFDFI8XR" role="2czzBx" />
         <node concept="pj6Ft" id="7TzLFDFI8XS" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -139,7 +138,7 @@
         </node>
       </node>
       <node concept="3F2HdR" id="7TzLFDFHXVF" role="3EZMnx">
-        <ref role="1NtTu8" to="xrba:7TzLFDFI8L3" />
+        <ref role="1NtTu8" to="xrba:7TzLFDFI8L3" resolve="greetPersons" />
         <node concept="l2Vlx" id="7TzLFDFHXVG" role="2czzBx" />
         <node concept="pj6Ft" id="7TzLFDFHXVH" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -161,7 +160,7 @@
         <property role="3F0ifm" value="Greet " />
       </node>
       <node concept="1iCGBv" id="7TzLFDFHLHH" role="3EZMnx">
-        <ref role="1NtTu8" to="xrba:7TzLFDFHLzY" />
+        <ref role="1NtTu8" to="xrba:7TzLFDFHLzY" resolve="person" />
         <node concept="1sVBvm" id="7TzLFDFHLHJ" role="1sWHZn">
           <node concept="3F0A7n" id="7TzLFDFHLOe" role="2wV5jI">
             <property role="1Intyy" value="true" />
